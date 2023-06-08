@@ -167,8 +167,31 @@ a:hover {
   grid-template-columns: 1fr;
   gap: 20px;
 }
-
 .grid_portfolio img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-width: 30%;
+}
+
+.grid_side {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.grid_side img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-width: 30%;
+}
+
+.grid_om {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.grid_om img {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -248,6 +271,40 @@ a:hover {
 
   .grid_portfolio img {
     grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .grid_side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .grid_side .grid_indhold {
+    grid-column: 2;
+  }
+
+  .grid_side img {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .grid_om {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+  .grid_om .grid_indhold {
+    grid-column: 2;
+  }
+  .grid_om img {
+    grid-column: 1;
+    grid-row: 1;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
