@@ -28,7 +28,9 @@ h1 {
 h2 {
   font-family: var(--header-font);
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 h3 {
   font-family: var(--header-font);
@@ -37,6 +39,11 @@ h3 {
 h4 {
   font-family: var(--header-font);
   color: var(--background-color);
+}
+.grid_om ul li {
+  list-style: "- ";
+  font-family: var(--p-font);
+  margin-left: 5px;
 }
 .page_header {
   font-family: var(--header-font);
@@ -229,7 +236,8 @@ a:hover {
   h2 {
     font-family: var(--header-font);
     color: var(--text-color);
-    font-size: 30px;
+    font-size: 16px;
+    margin-top: 10px;
   }
   h3 {
     font-family: var(--header-font);
