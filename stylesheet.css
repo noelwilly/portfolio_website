@@ -12,7 +12,7 @@ html {
   --blue-color: #27aae1;
   --background-color: #f5f5f5;
 
-  --header-font: Open Sans;
+  --header-font: Arial, Helvetica, sans-serif;
   --p-font: "lato", sans-serif;
 }
 main {
