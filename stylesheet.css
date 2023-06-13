@@ -55,6 +55,7 @@ h4 {
 p {
   font-family: var(--p-font);
   color: var(--text-color);
+  margin-top: 10px;
 }
 footer {
   display: flex;
@@ -71,6 +72,11 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: var(--blue-color);
+}
+
+video {
+  width: 100%;
+  height: auto;
 }
 
 .index_header1 {
@@ -94,16 +100,19 @@ footer {
   margin-right: auto;
 }
 .index_button {
-  display: block;
+  display: inline-block;
   font-family: var(--header-font);
   padding: 10px;
   background-color: var(--red-color);
   box-shadow: 0px 6px 10px #00000086;
   max-width: fit-content;
   margin-top: 10px;
+
+  transition: transform 0.5s ease;
 }
 .index_button:hover {
   background-color: var(--blue-color);
+  transform: scale(105%);
 }
 /*** menu ***/
 header {
@@ -140,9 +149,12 @@ a {
   color: var(--text-color);
   justify-content: flex-end;
   display: flex;
+
+  transition: transform 0.5s ease;
 }
 a:hover {
   color: var(--blue-color);
+  transform: scale(105%);
 }
 
 /*** Burgermenu ***/
@@ -227,6 +239,10 @@ a:hover {
     font-family: var(--header-font);
     color: var(--background-color);
   }
+  video {
+    grid-column: 1;
+    grid-row: 1;
+  }
   .index_text {
     display: flex;
     flex-direction: column;
@@ -234,7 +250,7 @@ a:hover {
     margin-right: auto;
   }
   .index_button {
-    display: block;
+    display: inline-block;
     font-family: var(--header-font);
     padding: 10px;
     background-color: var(--red-color);
