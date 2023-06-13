@@ -99,6 +99,7 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+
 .index_button {
   display: inline-block;
   font-family: var(--header-font);
@@ -149,6 +150,7 @@ a {
   color: var(--text-color);
   justify-content: flex-end;
   display: flex;
+  margin-right: 2px;
 
   transition: transform 0.5s ease;
 }
